@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ cursor: none;
+}
+#main h1{
+    font-family: gilroy;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 7vw;
+    color: #fff;
+    text-shadow: 0 0 100px rgb(81, 74, 74);
+}
+#cursor{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    mix-blend-mode: difference;
+    background-color: #fff;
+    position: absolute;
+}
